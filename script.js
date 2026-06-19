@@ -3,7 +3,7 @@ const checkPalindromeBtn = document.getElementById('check-btn');
 const resultDiv = document.getElementById('result');
 
 const checkForPalindrome = input => {
-  const originalInput = input; // Store for later output
+  const originalInput = input;
 
   if (input === '') {
     alert('Please input a value');
